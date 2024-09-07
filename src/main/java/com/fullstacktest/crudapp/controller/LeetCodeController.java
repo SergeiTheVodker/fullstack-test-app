@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 //TODO: add your leetcode answers here.
 @RestController
-public class LeetCodeEndpoint {
+public class LeetCodeController {
     @GetMapping("/fizzBuzz")
     public ResponseEntity getFizzBuzz(@RequestParam Integer numberInput){
         String returnText = "";
